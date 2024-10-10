@@ -4,9 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+    <p id="innerWidth"></p>
+    <p id="innerHeight"></p>
     <script>
-      console.log(window.innerWidth);
-      console.log(window.innerHeight);
+      document.getElementById('innerWidth').innerText = window.innerWidth;
+      document.getElementById('innerHeight').innerText = window.innerHeight;
     </script>
   </body>
 </html>
